@@ -9,9 +9,9 @@
     <table>
         <tr>
             <td>Nombre libro</td>
-            <td><input type="text" name='nombre'></td>
+            <td><input type="text" name='nombre' required></td>
         </tr>
-        <input type="hidden" name='insertar' value='insertar'>
+        <input type="hidden" name='insertar' value='insertar' required>
     </table>
     <input type="submit" value="Guardar">
     <a href="index.php">Volver</a>

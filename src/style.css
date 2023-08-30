@@ -17,7 +17,7 @@ table {
 }
 
 .btn-ver, .btn-ingresar{
-    background: rgb(121, 230, 97);
+    background: rgb(230, 97, 97);
     display: block;
     padding: 10px;
     color: white;
@@ -27,7 +27,7 @@ table {
 }
 
 .btn-ver:hover, .btn-ingresar:hover{
-    background-color:rgb(80, 228, 47)
+    background-color:rgb(44, 124, 25)
 }
 
 footer{
