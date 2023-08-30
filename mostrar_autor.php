@@ -42,7 +42,7 @@ $listaAutor=$crud->mostrar();
                             <td><?php echo $autor->getEmail() ?> </td>
                             <td><?php echo $autor->getCiudad() ?> </td>
                             <td><a class="btn-actualizar" href="actualizar_autor.php?id=<?php echo $autor->getId()?>&accion=a">Actualizar</a></td>
-                            <td><a class="btn-eliminar" nclick="return confirm('¿Estás seguro de que deseas eliminar los datos?')" href="administrar_autor.php?id=<?php echo $autor->getId()?>&accion=e">Eliminar</a></td>
+                            <td><a class="btn-eliminar" onclick="return confirm('¿Estás seguro de que deseas eliminar los datos?')" href="administrar_autor.php?id=<?php echo $autor->getId()?>&accion=e">Eliminar</a></td>
                         </tr>
                         <?php } ?>
                 </body>
