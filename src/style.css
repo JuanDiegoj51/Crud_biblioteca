@@ -1,35 +1,66 @@
 header {
-    color: black;
+    background-color: #227F6D;
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño de fuente */
+    border-radius: 5px;
+}
 
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    margin-bottom: center;
 }
 
 table, th, td {
-
     text-align: center;
+    
+}
 
+table h2 {
+    color: white;
+}
+
+.content {
+    background-color: #704906;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que las tablas se ajusten horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border-radius: 5px;
 }
 
 table {
     background-color: gray;
-   border: 1px solid;
-   border-radius: 3px;
-   padding: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    float: left; /* Agregar float a los contenedores */
+    margin: 0 20px; /* Agregar margen para separar los cuadros */
 }
 
 .btn-ver, .btn-ingresar{
-    background: rgb(230, 97, 97);
+    background: #ffa600;
     display: block;
     padding: 10px;
     color: white;
     text-decoration: none;
     border-radius: 3px;
-    width: 200px;    
+    width: 200px;   
+    transition: background-color 0.4s ease; /* Agregar transición a la propiedad background-color */ 
 }
 
-.btn-ver:hover, .btn-ingresar:hover{
-    background-color:rgb(44, 124, 25)
+.btn-ver:hover, .btn-ingresar:hover {
+    background-color: #c97f01; /* Amarillo más oscuro en el hover */
 }
 
 footer{
-    position: relative;
+    background-color: #227F6D;
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño de fuente */
+    border-radius: 5px;
 }

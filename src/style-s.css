@@ -1,0 +1,96 @@
+header {
+    background-color: #3e3f3f;
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño de fuente */
+    border-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+table {
+    background-color: gray;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.content {
+    background-color: #242727;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    flex-direction: column; /* Cambiar la dirección a columna */
+    gap: 20px;
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border-radius: 5px;
+}
+
+td {
+    border: 1px solid #3e3f3f;
+    padding: 8px;
+    text-align: center;
+}
+
+.btn-eliminar, .btn-actualizar {
+    background-color: #ffa600;;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 150px;
+    transition: background-color 0.4s ease;
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Ajusta el tamaño de fuente */
+    margin-top: 10px;
+    margin-inline: 30px;
+    background-image: none;
+}
+
+.btn-eliminar:hover, .btn-actualizar:hover {
+    background-color: #c97f01; /* Amarillo más oscuro en el hover */
+}
+
+.btn-eliminar:hover {
+    background-image: url('basura.png');
+    background-size: 25px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    text-indent: -9999px;
+}
+
+.btn-volver {
+    background-color: #ffa600;;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 150px;
+    transition: background-color 0.4s ease;
+    border: none; /* Elimina el borde del botón */
+    font-size: 16px; /* Ajusta el tamaño de fuente */
+    margin-top: 10px;
+    margin-inline: 30px;
+    background-image: none;
+    margin: 20px auto;
+}
+
+.btn-volver:hover {
+    background-color: #c97f01;
+}
+
+footer{
+    background-color: #3e3f3f;
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño de fuente */
+    border-radius: 5px;
+}
